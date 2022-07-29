@@ -2,7 +2,7 @@
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://memmedov-karim.github.io",
+  "homepage": "https://memmedov-karim.github.io/ToDoReactReduxApp",
   "dependencies": {
     "@reduxjs/toolkit": "^1.8.3",
     "@testing-library/jest-dom": "^5.16.4",
