@@ -1,0 +1,106 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+  
+}
+.App h1{
+  /* border: 1px solid black; */
+  margin-bottom: 0px;
+  width: 25%;
+  text-align: center;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  border-bottom: none;
+  background-color: rgb(210, 216, 100);
+}
+
+.FoRm {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  min-height: 50px;
+  /* border: 1px solid black; */
+  background-color: rgb(210, 216, 100);
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  overflow: hidden;
+  
+  
+}
+.settings {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  margin-left: 6px;
+}
+.editt {
+  cursor: pointer;
+
+}
+.editt:hover{
+  color:green
+}
+.sort{
+  position: absolute;
+  left: 90%;
+  top: 0px;
+  height: 49px;
+  width: 10%;
+  border: none;
+  background-color:rgb(156, 164, 0) ;
+  border-bottom-left-radius: 30px;
+  cursor: pointer; 
+}
+.sort:hover {
+  background-color: cadetblue;
+}
+.add {
+  cursor: pointer;
+  margin-right: 5px;
+}
+.firs{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+
+}
+.Input{
+  margin-left: 20px;
+}
+.FoRm .Input input {
+  outline: none;
+  border: none;
+  border-bottom: 1px solid black;
+  height: 30px;
+  background-color:rgb(210, 216, 100) ;
+}
+.listm {
+  list-style: none;
+}
+.listm li{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+  border-radius: 7px;
+  background-color: cadetblue;
+  margin-bottom: 6px;
+  height: 20px;
+  
+}
+.listm li:hover{
+  background-color: darkslategray;
+}
+.delete{
+  cursor: pointer;
+  margin-left: 5px;
+}
+.delete:hover {
+  color: red;
+}
